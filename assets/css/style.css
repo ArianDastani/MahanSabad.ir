@@ -210,6 +210,11 @@ label {
     animation-delay: -.5s
 }
 
+
+.category-all{
+    margin-left : 3rem;
+}
+
 @keyframes loader-ripple {
     0% {
         top: 36px;
@@ -1398,8 +1403,9 @@ Contact Area
     }
 
     .navbar #main_nav {
-        justify-content: flex-end
-    }
+        justify-content: flex-start
+        
+    } 
 
     .nav-right {
         display: flex;
@@ -1588,6 +1594,7 @@ Contact Area
 
 .category-all {
     position: relative
+    
 }
 
 .category-btn {
