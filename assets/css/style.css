@@ -5,7 +5,7 @@
     --body-font: 'IRANSans', sans-serif;
     --mybody-font: 'Roboto', sans-serif;
     --heading-font: 'IRANSans', sans-serif;
-    --theme-color: #11B76B;
+    --theme-color: #f3661f;
     --theme-color2: #8493CA;
     --theme-bg-light: #F6F9FC;
     --theme-bg-light2: #F1F6FA;
@@ -492,6 +492,136 @@ label {
 .my-80 {
     margin: 80px 0
 }
+
+
+/*================================================
+Index 01 Features Area CSS
+=================================================*/
+.features-card {
+    background-color: #f7f7f7;
+    padding: 30px 25px;
+    height : 300px;
+    border-radius : 10px;
+    margin-bottom : 1rem;
+  }
+  
+  .features-card h4 {
+    margin-top: 23px;
+    margin-bottom: 12px;
+    font-size: var(--card-title-fontSize);
+    font-weight: 700;
+  }
+  
+  /* .features-card:hover img {
+    -webkit-animation: bounce 1.5s infinite;
+            animation: bounce 1.5s infinite;
+  } */
+
+
+
+
+
+  /*================================================
+Index 01 Sign Up Area CSS
+=================================================*/
+.sign-up {
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../img/banner/05.jpg");
+    font-family: var(--body-font);
+    
+  }
+  
+  .sign-up::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+  }
+  
+  .sign-up::after {
+    content: '';
+    height: 100%;
+    width: 33%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .sign-up-form-area {
+    z-index: 2;
+    padding: 40px 50px 50px;
+    position: relative;
+    background-color: var(--theme-color);
+    border-radius : 10px;
+  }
+  
+  .sign-up-form-area .default-section-title h3 {
+    margin-bottom: 0;
+  }
+  
+  .sign-up-form-area .default-section-title p {
+    font-size: 15px;
+  }
+  
+  .sign-up-form-area form {
+    margin-top: 25px;
+  }
+  
+  .sign-up-form-area form .form-control {
+    margin-top: 15px;
+    padding: 15px;
+    color: var(--whiteColor);
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 15px;
+    font-family: var(--body-font);
+  }
+  
+  .sign-up-form-area form .form-control::-webkit-input-placeholder {
+    color: var(--whiteColor);
+  }
+  
+  .sign-up-form-area form .form-control:-ms-input-placeholder {
+    color: var(--whiteColor);
+  }
+  
+  .sign-up-form-area form .form-control::-ms-input-placeholder {
+    color: var(--whiteColor);
+  }
+  
+  .sign-up-form-area form .form-control::placeholder {
+    color: var(--whiteColor);
+  }
+  
+  .sign-up-form-area form .form-check {
+    margin-top: 15px;
+  }
+  
+  .sign-up-form-area form .form-check label {
+    color: #eeeeee;
+  }
+  
+  .sign-up-link:hover{
+    color : #fff;
+  }
+
+  
+  
+  
+
+
 
 
 /*=================================
@@ -4268,6 +4398,7 @@ Contact Area
     margin-bottom: 25px;
     border-radius: 10px;
     background: var(--theme-bg-light)
+    
 }
 
 .product-img {
@@ -9783,3 +9914,4 @@ Contact Area
     background: 0 0;
     border: 1px solid var(--border-info-color)
 }
+
